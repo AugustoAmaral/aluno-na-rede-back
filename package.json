@@ -1,0 +1,29 @@
+{
+  "name": "aluno-na-rede-back",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^3.1.2",
+    "prettier": "^2.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "./node_modules/.bin/prettier --write 'app/**/*.rb'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AugustoAmaral/aluno-na-rede-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AugustoAmaral/aluno-na-rede-back/issues"
+  },
+  "homepage": "https://github.com/AugustoAmaral/aluno-na-rede-back#readme"
+}

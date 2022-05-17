@@ -1,4 +1,4 @@
 class Role < ApplicationRecord
-    has_many :users
-    has_and_belongs_to_many :sites
+  has_many :users
+  has_and_belongs_to_many :sites
 end
